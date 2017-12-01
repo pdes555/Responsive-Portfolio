@@ -239,19 +239,36 @@ input[type=submit] {
 }
 
 
-/*@media screen and (max-width: 980px) {
+@media screen and (max-width: 980px) {
   .main-section {
-
+  margin-left: 100px;
+  width: 450px;
   }
 
   .sidebar {
-
+  margin-right: 90px;
   }
-}*/
+
+  .links {
+    position: relative;
+    right: 80px;
+  }
+
+  #logo {
+    position: relative;
+    left: 100px;
+  }
+
+  #portfolio-section {
+    max-width: 340px;
+  }
+}
 
 @media screen and (max-width: 768px) {
    .main-section {
+    max-width:600px;
     width: 100%;
+    float: left;
     margin-left: 50px;
     margin-right: 50px;
   }
@@ -259,17 +276,53 @@ input[type=submit] {
   .sidebar {
     width: 100%;
     float: left;
+    max-width: 600px;
     margin-left: 50px;
     margin-right: 50px;
   }
 
+  .links {
+    position: relative;
+    right: 80px;
+  }
+
+  #portfolio-section {
+    float: left;
+    max-width: 670px;
+  }
+
+  #portfolio-sidebar {
+    float: left;
+    max-width: 670px;
+  }
 }
 @media screen and (max-width: 640px) {
    .main-section {
-
+    max-width: 550px;
+    width: 100%;
   }
 
   .sidebar {
-    
+    max-width: 550px;
+    width: 100%;
+  }
+
+  #masthead {
+    width: 550px;
+    max-width: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  #logo {
+    width: 350px;
+  }
+
+  .links {
+    position: relative;
+    right: 150px;
+  }
+  #portfolio-section {
+    width: 500px;
   }
 }
